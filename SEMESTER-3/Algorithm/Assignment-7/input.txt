@@ -1,0 +1,2 @@
+Huffman coding is a greedy algorithm used for data compression.
+It assigns shorter codes to frequent characters.
