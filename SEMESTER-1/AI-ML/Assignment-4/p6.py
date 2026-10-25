@@ -1,0 +1,11 @@
+f_name=input("Enter filename: ")
+f=open(f_name,"r")
+text=f.read()
+f.seek(0)
+lines=f.readlines()
+words=text.split()
+cha=len(text)
+
+print("Characters:",cha)
+print("Words:",len(words))
+print("Lines:",len(lines))

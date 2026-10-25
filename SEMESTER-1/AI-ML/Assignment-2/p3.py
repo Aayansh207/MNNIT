@@ -1,0 +1,12 @@
+t1=(10,20,30,40)
+l1=list(t1)
+l1.append(50)
+t1=tuple(l1)
+print("Tuple after adding item:",t1)
+print("Length of tuple:", len(t1))
+print("Is 30 in tuple?", 30 in t1)
+print("Is 100 in tuple?", 100 in t1)
+print("First item:", t1[0])
+print("Last item:", t1[-1])
+print("Slice [1:4]:", t1[1:4])
+
